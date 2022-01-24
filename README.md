@@ -1,3 +1,3 @@
-# Getting Started with Create React App
+# practice-collaborative-project
 
 Petit projet pour s'entrainer à travailler en équipe sur un dépôt GitHub.
