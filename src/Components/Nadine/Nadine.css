@@ -1,0 +1,12 @@
+.nadineComponent {
+  width:100px;
+  height:100px;
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: blueviolet;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+}
