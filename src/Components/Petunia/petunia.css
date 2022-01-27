@@ -1,0 +1,14 @@
+.petuniaCompo{
+    display: flex;
+    width: 500px;
+    height: 70px;
+    border: 1px solid tomato;
+}
+
+.btn1{
+    border-radius: 10%;
+    width: 150px;
+    height: 32px;
+    align-items: center;
+    background-color: tomato;
+}
