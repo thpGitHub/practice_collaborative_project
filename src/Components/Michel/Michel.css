@@ -1,0 +1,13 @@
+.michelComponent {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(135deg, #e66465, #9198e5);
+  text-align: center;
+  line-height: 100px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.angryRed {
+  background: red;
+}
