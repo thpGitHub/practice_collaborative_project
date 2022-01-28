@@ -5,6 +5,7 @@ import NadineComponent from './Components/Nadine/Nadine';
 import Petunia from './Components/Petunia/petunia';
 import Legume from './Components/Petunia/legume';
 import React from 'react';
+import SuperCastor from './Components/Petunia/superCastor';
 
 function App() {
   //const [tomateChoix, setTomateChoix] = React.useState (si tu a besoin d'utiliser tomate)
@@ -12,10 +13,10 @@ function App() {
     console.log(`ton chois dans APP ${tomate}`)
     //setTomateChoix(tomate)
   }
-  //const [castorChoix, setCastorChoix]
+  const [castorChoix, setCastorChoix] = React.useState()
   const handleCastorChange = (castor)=>{
     console.log(`tu est un castor  ${castor}`)
-    //setCastorChoix(castor)
+    setCastorChoix(castor)
   }
 
 
@@ -26,6 +27,7 @@ function App() {
       <NadineComponent says='Yes we can'/>
       <Petunia/>
       <Legume onChangeTomate={handleChoixTomate} onChangeCastor={handleCastorChange}/>
+      <SuperCastor castor ={castorChoix}/>
     </div>
   );
 }
