@@ -6,6 +6,7 @@ import Petunia from './Components/Petunia/petunia';
 import Legume from './Components/Petunia/legume';
 import React from 'react';
 import SuperCastor from './Components/Petunia/superCastor';
+import Hommerie from './Components/Petunia/hommerie';
 
 function App() {
   //const [tomateChoix, setTomateChoix] = React.useState (si tu a besoin d'utiliser tomate)
@@ -22,6 +23,7 @@ function App() {
 
   return (
     <div className="App">
+      <Hommerie/>
       <ThierryComponent says='Hello,'/>
       <TamComponent says='Salut =D'/>
       <NadineComponent says='Yes we can'/>
