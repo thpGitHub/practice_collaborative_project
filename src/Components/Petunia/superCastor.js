@@ -3,6 +3,7 @@ import './superCastor.css'
 import Handy from './Handy_m.webp'
 import Toothy from './Toothy_m.webp'
 
+
 const SuperCastor = ({castor = ''}) =>{
 const a = "a"
 const andy = <img src={Handy} alt="oups Andy est en convalescence" width="150"/>
