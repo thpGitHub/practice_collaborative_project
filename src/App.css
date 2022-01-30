@@ -9,3 +9,11 @@
 .App * {
   margin: 1rem;
 }
+
+@media screen and (max-device-width : 650px) 
+{
+ .App{
+   flex-direction: column;
+  
+ } 
+}
