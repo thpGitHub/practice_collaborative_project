@@ -5,8 +5,8 @@ import TamComponent from './Components/Tam/Tam';
 import NadineComponent from './Components/Nadine/Nadine';
 import Petunia from './Components/Petunia/petunia';
 import MichelComponent from './Components/Michel/Michel';
-import Legume from './Components/Petunia/petunia';
-import SuperCastor from './Components/Petunia/petunia';
+import Legume from './Components/Petunia/legume';
+import SuperCastor from './Components/Petunia/superCastor';
 
 function App() {
   //const [tomateChoix, setTomateChoix] = React.useState (si tu a besoin d'utiliser tomate)
